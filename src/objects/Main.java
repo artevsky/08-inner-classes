@@ -13,9 +13,12 @@ public class Main {
         Square square = new Square(1);
         square.print();
 
-        ShapeUtils shapeutils = new ShapeUtils();
-        System.out.println(shapeutils);
-        
+        ShapeUtils.type();
+
+//        ShapeUtils shapeutils = new ShapeUtils();
+//        System.out.println(shapeutils);
+//        ShapeUtils.figura(3);
+//        System.out.println(ShapeUtils.figura(4));
 //        shapeutils.print();
     }
 }
