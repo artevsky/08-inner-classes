@@ -34,7 +34,7 @@ public class Triangle implements Figure, Printable {
 
     @Override
     public void print() {
-        System.out.println("Triangle properties:");
+        System.out.println("***Triangle properties:***");
         System.out.println("Area is " + getArea());
         System.out.println("Perimeter is " + getPerimeter());
         System.out.println("Height is " + getHa());

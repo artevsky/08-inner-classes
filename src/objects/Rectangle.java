@@ -21,7 +21,7 @@ public class Rectangle implements Figure, Printable {
 
     @Override
     public void print() {
-        System.out.println("Rectangle properties:");
+        System.out.println("***Rectangle properties:***");
         System.out.println("Area is "+getArea());
         System.out.println("Perimeter is "+getPerimeter());
 

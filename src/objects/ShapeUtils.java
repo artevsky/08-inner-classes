@@ -12,7 +12,7 @@ public class ShapeUtils {
         } else if (corners == 4) {
             System.out.println("Ваша фигура четырехугольник. Сколько в ней прямых углов?");
             int corners2 = sc.nextInt();
-            if (corners2 == 4) {
+            if (corners2 == 4||corners2 == 4) {
                 System.out.println("Это прямоугольник!");
             } else {
                 System.out.println("Эх... параллелограмм");

@@ -10,8 +10,12 @@ public class Main {
         rhombus.print();
         Triangle triangle = new Triangle(3, 4, 5);
         triangle.print();
+        Square square = new Square(1);
+        square.print();
+
         ShapeUtils shapeutils = new ShapeUtils();
         System.out.println(shapeutils);
+        
 //        shapeutils.print();
     }
 }

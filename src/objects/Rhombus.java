@@ -26,7 +26,7 @@ public class Rhombus implements Figure, Printable {
 
     @Override
     public void print() {
-        System.out.println("Rhombus properties:");
+        System.out.println("***Rhombus properties:***");
         System.out.println("Area is " + getArea());
         System.out.println("Perimeter is " + getPerimeter());
         System.out.println("Side is " + getSide());
