@@ -15,10 +15,12 @@ public class Main {
 
         ShapeUtils.type();
 
+
+    }
+}
+
 //        ShapeUtils shapeutils = new ShapeUtils();
 //        System.out.println(shapeutils);
 //        ShapeUtils.figura(3);
 //        System.out.println(ShapeUtils.figura(4));
 //        shapeutils.print();
-    }
-}

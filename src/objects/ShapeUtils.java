@@ -6,19 +6,17 @@ public class ShapeUtils {
 
     public static void type() {
         int side = getSide();
-        if (side==3) {
-
+        if (side == 3) {
+            System.out.println(figura(side));
+        } else if (side == 4) {
+            int corners = getCorners();
+            System.out.println(quadrangle(corners));
         }
-        System.out.println(figura(side));
-        int corners = getCorners();
-        System.out.println(quadrangle(corners));
     }
 
     public static int getSide() {
-//        int side;
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите количество сторон Вашей фигуры: ");
-//        side = sc.nextInt();
         return sc.nextInt();
     }
 
